@@ -1,0 +1,368 @@
+/* responsive 480 to 1200px */
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  /* reponsive design */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  header {
+    width: 100vw;
+    height: 10vh;
+  }
+  nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .left-nav,
+  .right-nav {
+    margin: 0 0.5rem;
+    width: 50%;
+    height: 100%;
+  }
+
+  .logo {
+    width: auto;
+    height: auto;
+  }
+  .logo h1 {
+    width: auto;
+    font-size: 2rem;
+  }
+
+  #lang,
+  .login button {
+    font-size: 1rem;
+    width: 6rem;
+  }
+
+  /* -------------------------------- */
+  .cnt-line {
+    width: 100%;
+    height: 10rem;
+    background: rgba(0, 0, 0, 0.7) url("netflix-landing-page.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+    top: 3rem;
+  }
+
+  .landing-page {
+    width: 100vw;
+    height: 30rem;
+  }
+
+  .lph {
+    width: 90%;
+  }
+
+  .lph h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .lph h2 {
+    font-size: 1.9rem;
+    width: 100%;
+    text-align: center;
+  }
+  .lpp p {
+    width: 90%;
+    text-align: center;
+    font-size: 1.09rem;
+  }
+  .lppfs p {
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+  }
+
+  .lpsb {
+    width: 90%;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lp-srch {
+    width: 90%;
+    position: relative;
+    bottom: 0.5rem;
+  }
+
+  .ip-btnb,
+  .lp-btn {
+    width: 50%;
+  }
+
+  /* ---------------------------- */
+
+  .imgsc-btn {
+    width: 98%;
+    height: 5rem;
+    position: relative;
+    top: 10rem;
+  }
+  #imgscrl-left,
+  #imgscrl-right {
+    height: 5rem;
+    width: 1.5rem;
+    font-size: 20px;
+    position: relative;
+    right: 0.1rem;
+  }
+
+  .cnt-content1 {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .cnt-imgbox {
+    width: 90%;
+    height: 50%;
+    margin: 0.5rem;
+    position: relative;
+    display: flex;
+  }
+  .cnt-img {
+    width: 5rem;
+    height: 100%;
+    margin-right: 3rem;
+    position: relative;
+  }
+
+  .cnt-hd {
+    width: 90%;
+    font-size: 1rem;
+    margin-left: -11.4rem;
+  }
+
+  .cnt-img img {
+    height: 100%;
+  }
+  .cnt-no {
+    font-size: 4rem;
+    position: relative;
+    right: 9rem;
+  }
+
+  /* ---------------------- */
+
+  .cnt-content2 {
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .cnt-hd2 {
+    width: 90%;
+    font-size: 1rem;
+    margin-left: 42rem;
+  }
+
+  .cnt-dbox {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+  .cntdbox-left {
+    width: 100%;
+    height: 90%;
+  }
+  .cntdbox-right {
+    width: 100%;
+    height: 90%;
+  }
+
+  .cnt-dbox1,
+  .cnt-dbox2,
+  .cnt-dbox3,
+  .cnt-dbox4 {
+    width: 100%;
+    height: 100%;
+    margin: 0.3rem;
+    position: relative;
+  }
+
+  /* ---------------------------- */
+
+  .content3-qa {
+    width: 100%;
+    padding: 0.5rem;
+    position: relative;
+    top: 15rem;
+  }
+
+  .cnt-hd3 {
+    width: 80%;
+    font-size: 1rem;
+    margin-left: 34.7rem;
+  }
+
+  .cnt-q {
+    width: 90%;
+    position: relative;
+  }
+  .cnt-q1,
+  .cnt-q2,
+  .cnt-q3,
+  .cnt-q4,
+  .cnt-q5,
+  .cnt-q6 {
+    font-size: 1rem;
+    height: 4rem;
+  }
+
+  .cnt-a1,
+  .cnt-a2,
+  .cnt-a3,
+  .cnt-a4,
+  .cnt-a5,
+  .cnt-a6 {
+    font-size: 1rem;
+  }
+
+  /* ----------------------------- */
+
+  .content4-lg {
+    width: 90%;
+    height: 18rem;
+    position: relative;
+    top: 17rem;
+    margin: auto;
+    padding: 1rem;
+  }
+  .content4-lg p {
+    width: 90%;
+    font-size: 1rem;
+    margin-right: 4.6rem;
+    font-weight: bold;
+  }
+
+  .cnt4-lgn {
+    flex-direction: column;
+    width: 100%;
+    height: 10rem;
+  }
+  #cnt4-lgn1 {
+    width: 90%;
+    height: 50%;
+    background: transparent;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-right: 2.5px;
+    border: 1px solid white;
+  }
+
+  .cnt4-btn2b {
+    width: 30%;
+    height: 50%;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2.5px;
+  }
+
+  main {
+    width: 100vw;
+  }
+
+  /* ----------------------------- */
+
+  footer {
+    width: 100vw;
+    height: 20rem;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    position: relative;
+    top: 24rem;
+  }
+  .ftr-hd {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .ftr-links {
+    width: 100%;
+    position: relative;
+    top: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ftr-links a {
+    margin: 0.2rem 0;
+  }
+
+  .ftr-linkl1 {
+    width: 20%;
+    height: auto;
+  }
+
+  .ftr-linkl2 {
+    width: 20%;
+    height: auto;
+  }
+  .ftr-linkl3 {
+    width: 20%;
+    height: auto;
+  }
+  .ftr-linkl4 {
+    width: 20%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .ftr-lng {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 2rem;
+  }
+
+  #ftr-lngs {
+    position: relative;
+    left: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .ftr-nfh {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 2rem;
+    padding: 0.5rem;
+  }
+
+  .ftr-pvp {
+    width: 100%;
+    height: 2rem;
+    margin: auto;
+    position: relative;
+    top: 2rem;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+
+  }
+}
